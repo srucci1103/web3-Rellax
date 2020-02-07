@@ -1,0 +1,29 @@
+/* =============
+    Base
+============= */
+figure{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    li{
+        list-style: none;
+    }
+}
+
+body{
+    background-color: $light;
+    height: 200vh;
+}
+
+.shape{
+    height: 100px;
+    width: 100px;
+    background-color: $yellow;
+    border-radius: 25px;
+    opacity: .25;
+
+}

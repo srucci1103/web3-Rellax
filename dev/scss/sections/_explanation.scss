@@ -1,0 +1,40 @@
+#explanation{
+    background-color: $orange;
+    height: 100vh;
+    h3{
+        text-align: center;
+        padding: 20vh 0 10vh;
+        font-size: 3rem;
+    }
+    section{
+        display: grid;
+        grid-template-columns: "auto 20% 20% auto";
+        grid-template-areas: ". html js .";
+        grid-gap: 5%;
+        article{
+            background-color: $light;
+            border-radius: 25px;
+            padding: 1.5rem;
+            h4{
+                font-size: 2rem;
+                color: $yellow;
+                text-align: center;
+                padding-bottom: 1rem;
+            }
+            xmp{
+                font-size: 1.2rem;
+                padding: 1rem;
+                margin: auto;
+                color: $black;
+                opacity: .75;
+            }
+        }
+        #ex1{
+            grid-area: html;
+        }
+        #ex2{
+            grid-area: js;
+        }
+    }
+
+}
