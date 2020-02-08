@@ -6,7 +6,8 @@ var rellax = new Rellax('.rellax', {
   vertical: true,
   horizontal: false
 });
-var rellax = new Rellax('.rellax2', {
+
+var rellax2 = new Rellax('.rellax2', {
   speed: 5,
   center: false,
   wrapper: null,
@@ -14,7 +15,7 @@ var rellax = new Rellax('.rellax2', {
   vertical: true,
   horizontal: false
 });
-var rellax = new Rellax('.slowrellax', {
+var rellax3 = new Rellax('.slowrellax', {
   speed: -5,
   center: false,
   wrapper: null,
@@ -23,7 +24,7 @@ var rellax = new Rellax('.slowrellax', {
   horizontal: false
 });
 
-var rellax = new Rellax('.slowrellax2', {
+var rellax4 = new Rellax('.slowrellax2', {
   speed: -5,
   center: false,
   wrapper: null,
@@ -32,7 +33,7 @@ var rellax = new Rellax('.slowrellax2', {
   horizontal: false
 });
 
-var rellax = new Rellax('.fastrellax', {
+var rellax5 = new Rellax('.fastrellax', {
   speed: 20,
   center: false,
   wrapper: null,

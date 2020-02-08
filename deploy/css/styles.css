@@ -322,29 +322,32 @@ ul {
     list-style: none; }
 
 body {
-  background-color: #FBE29D;
   height: 200vh; }
 
 .shape {
   height: 100px;
   width: 100px;
-  background-color: #FFBA00;
-  border-radius: 25px;
-  opacity: .25; }
+  background-color: #FBE29D;
+  border-radius: 25px; }
 
 /* =============
     Typography
 ============= */
-h1, h2, h3, h4, h5, p {
-  padding: 0;
-  margin: 0; }
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  padding: 0; }
 
 body {
   font-family: 'Montserrat', sans-serif; }
 
 h3 {
-  font-size: 1.5rem;
-  color: #FBE29D; }
+  color: #FBE29D;
+  font-size: 1.5rem; }
 
 /* =============
     Buttons
@@ -374,33 +377,33 @@ textarea {
     Footer
 ============= */
 #hero {
-  height: 100vh;
+  align-items: center;
   display: flex;
-  justify-content: center;
-  align-items: center; }
+  height: 100vh;
+  justify-content: center; }
   #hero #container section h1 {
-    text-align: center;
-    font-weight: 700;
-    font-size: 8rem;
+    border-radius: 10px;
     color: #FFBA00;
-    padding: .5rem 3rem 3rem;
-    border-radius: 10px; }
-  #hero #container section h2 {
-    text-align: center;
+    font-size: 8rem;
     font-weight: 700;
+    padding: 0.5rem 3rem 3rem;
+    text-align: center; }
+  #hero #container section h2 {
+    color: #FFBA00;
     font-size: 2rem;
-    color: #FFBA00; }
+    font-weight: 700;
+    text-align: center; }
   #hero #container article {
     display: flex;
     justify-content: center; }
     #hero #container article h3 {
       background-color: #F59500;
       border-radius: 25px;
-      width: 300px;
-      height: auto;
-      text-align: center;
       font-weight: 500;
-      padding: 1rem 1.5rem; }
+      height: auto;
+      padding: 1rem 1.5rem;
+      text-align: center;
+      width: 300px; }
   #hero #container #shape2 {
     margin-left: auto; }
 
@@ -408,29 +411,30 @@ textarea {
   background-color: #F59500;
   height: 100vh; }
   #explanation h3 {
-    text-align: center;
+    color: #fff;
+    font-size: 3rem;
     padding: 20vh 0 10vh;
-    font-size: 3rem; }
+    text-align: center; }
   #explanation section {
     display: grid;
-    grid-template-columns: "auto 20% 20% auto";
+    grid-gap: 5%;
     grid-template-areas: ". html js .";
-    grid-gap: 5%; }
+    grid-template-columns: "auto 20% 20% auto"; }
     #explanation section article {
-      background-color: #FBE29D;
+      background-color: #fff;
       border-radius: 25px;
       padding: 1.5rem; }
       #explanation section article h4 {
-        font-size: 2rem;
         color: #FFBA00;
-        text-align: center;
-        padding-bottom: 1rem; }
+        font-size: 2rem;
+        padding-bottom: 1rem;
+        text-align: center; }
       #explanation section article xmp {
-        font-size: 1.2rem;
-        padding: 1rem;
-        margin: auto;
         color: #000;
-        opacity: .75; }
+        font-size: 1.2rem;
+        margin: auto;
+        opacity: 0.75;
+        padding: 1rem; }
     #explanation section #ex1 {
       grid-area: html; }
     #explanation section #ex2 {

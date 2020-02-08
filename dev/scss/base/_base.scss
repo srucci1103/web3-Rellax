@@ -15,15 +15,14 @@ ul{
 }
 
 body{
-    background-color: $light;
     height: 200vh;
 }
 
 .shape{
     height: 100px;
     width: 100px;
-    background-color: $yellow;
+    background-color: $light;
     border-radius: 25px;
-    opacity: .25;
+    // opacity: .5;
 
 }
