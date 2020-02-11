@@ -413,7 +413,7 @@ textarea {
   #explanation h3 {
     color: #fff;
     font-size: 3rem;
-    padding: 20vh 0 10vh;
+    padding: 20vh 0 15vh;
     text-align: center; }
   #explanation section {
     display: grid;
@@ -439,3 +439,25 @@ textarea {
       grid-area: html; }
     #explanation section #ex2 {
       grid-area: js; }
+
+#download {
+  align-items: center;
+  background-color: #FBE29D;
+  display: flex;
+  height: 90vh;
+  justify-content: center; }
+  #download a:link,
+  #download a:visited {
+    background-color: #F59500;
+    border-radius: 15px;
+    color: #fff;
+    margin-top: 5rem;
+    font-size: 5rem;
+    font-weight: 700;
+    padding: 3rem;
+    text-decoration: none;
+    transition: 0.25s; }
+  #download a:active,
+  #download a:hover {
+    background-color: #fff;
+    color: #F59500; }

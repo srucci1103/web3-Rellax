@@ -16,11 +16,11 @@ var rellax2 = new Rellax('.rellax2', {
   horizontal: false
 });
 var rellax3 = new Rellax('.slowrellax', {
-  speed: -5,
+  speed: 1,
   center: false,
   wrapper: null,
   round: true,
-  vertical: false,
+  vertical: true,
   horizontal: false
 });
 
